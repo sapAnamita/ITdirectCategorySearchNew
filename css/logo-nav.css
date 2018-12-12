@@ -1,0 +1,142 @@
+/*!
+ * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+.navbar-brand {
+    height:100px;
+  padding: 0px;
+}
+.navbar-brand>img {
+  position:absolute;
+  height: 100%;
+  padding: 17px;
+  margin-left: -347px;
+  
+}
+.headtitle {
+    position:absolute;
+    padding-top:10px;
+    padding-left:400px;
+    padding-right:150px;
+   color: white;
+  
+}
+
+
+
+
+
+.navadjust {
+    border-top-width:2px;
+    border-top-color:#F0AB00;
+    margin-top:-20px;
+   /* padding-left:800px;*/
+   /*button color #008fd3*/
+}
+.change{
+    text-align:center;
+}
+.disable{
+
+}
+.custfont{
+    color: white;
+    cursor:default;
+}
+.custfont:hover{
+    color: white;
+}
+.custfont:visited{
+    color: white;
+}
+.mouse{
+    cursor:pointer;
+}
+.lb-sm {
+  font-size: 12px;
+}
+
+.lb-md {
+  font-size: 15px;
+}
+
+.lb-lg {
+  font-size: 20px;
+}
+
+.logo{
+    position:absolute;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+    .headtitle {
+    position:absolute;
+    padding-top:19px;
+    padding-left:125px;
+    padding-right:64px;
+   color: white;
+  
+}
+
+    .h1,h1{
+        font-size:18px;
+    }
+
+
+    .logo{
+
+        position:absolute;
+         padding-left:18px;
+    padding-right:147px;
+    
+
+    }
+
+    .navbar-brand > img{
+
+        height:77%;
+        padding:17px;
+        margin-left:-3px;
+    }
+
+
+
+
+ 
+
+
+    }
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .headtitle {
+        position: absolute;
+        padding-top: 19px !important;
+        padding-left: 245px !important;
+        padding-right: 64px !important;
+        color: white;
+    }
+
+    .h1, h1 {
+        font-size: 18px;
+    }
+
+
+    .logo {
+        position: absolute;
+        padding-left: 18px !important;
+        padding-right: 147px !important;
+    }
+
+    .navbar-brand > img {
+        height: 77% !important;
+        padding: 17px !important;
+        margin-left: -3px !important;
+    }
+}
